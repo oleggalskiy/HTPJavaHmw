@@ -65,11 +65,11 @@ public class Task04 {
 
 	private static void printRez(boolean crit, Student[] studs, ArrayList<Customer> customs) {
 		if (crit == true) {
-			for (Student s : studs) {
+			for (Ishow s : studs) {
 				s.show();
 			}
 		} else {
-			for (Customer c : customs) {
+			for (Ishow c : customs) {
 				c.show();
 
 			}
