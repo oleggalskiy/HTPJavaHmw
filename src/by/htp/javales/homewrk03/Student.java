@@ -1,7 +1,7 @@
 package by.htp.javales.homewrk03;
 
 
-public class Student {
+public class Student implements Show {
 
 	public int id;
 	private String secondName;

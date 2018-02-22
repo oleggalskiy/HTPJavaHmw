@@ -1,6 +1,6 @@
 package by.htp.javales.homewrk03;
 
-public class Customer {
+public class Customer implements Show {
 	public int id;
 	private String secondName;
 	private String name;
